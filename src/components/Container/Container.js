@@ -1,9 +1,9 @@
 import './Container.css'
 import React from 'react'
 
-const Container = () => {
+const Container = (props) => {
   return (
-    <div>Container</div>
+    <div>{props.children}</div>
   )
 }
 

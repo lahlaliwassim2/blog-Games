@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css'
-import { Header , Container ,Footer } from './components/index'
+import {Hero, Header , Container ,Footer } from './components/index'
 const App = () => {
   return (
     <> 
      <Header />   
-     <Container />
+     <Container>
+      <Hero />
+     </Container>
      <Footer />
      </>
   )
