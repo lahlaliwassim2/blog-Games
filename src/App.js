@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
+import Container from './components/Container/Container'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
 const App = () => {
   return (
     <> 
-    <div className='h1'>Test Component de bas</div>
-    <h3>test component </h3>
-    </>
-  
+     <Header />   
+     <Container />
+     <Footer />
+     </>
   )
 }
 
