@@ -4,7 +4,7 @@ import { Header , Container ,Footer } from './components/index'
 const App = () => {
   return (
     <> 
-     <Header text="exemple props " color='yellow' />   
+     <Header />   
      <Container />
      <Footer />
      </>
