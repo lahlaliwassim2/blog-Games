@@ -1,8 +1,9 @@
+import './Header.css'
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <div>Header</div>
+    <div style={{color:props.color}}>{props.text}</div>
   )
 }
 
