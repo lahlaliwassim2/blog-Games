@@ -1,6 +1,7 @@
 import './Header.css'
 import React from 'react'
 import logo from '../../assets/images/logo.png'
+import NavItem from '../navItem/NavItem'
 
 const Header = () => {
   return (
@@ -14,21 +15,21 @@ const Header = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto ">
-          <li className="nav-item">
+          <NavItem >
             <a className="nav-link text-white" aria-current="page" href="#">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-white " aria-current="page" href="#">Browse</a>
-          </li>
-          <li className="nav-item">
+          </NavItem>
+          <NavItem >
+            <a className="nav-link text-white" aria-current="page" href="#">Browse</a>
+          </NavItem>
+          <NavItem >
             <a className="nav-link text-white" aria-current="page" href="#">Details</a>
-          </li>
-          <li className="nav-item">
+          </NavItem>
+          <NavItem >
             <a className="nav-link text-white" aria-current="page" href="#">Streams</a>
-          </li>   
-          <li className="nav-item">
+          </NavItem>  
+          <NavItem >
             <a className="nav-link text-white" aria-current="page" href="#">Profil</a>
-          </li>     
+          </NavItem>     
         </ul>
         <form className="d-flex">
           <input className="form-control " type="search" placeholder="Search" aria-label="Search"/>
