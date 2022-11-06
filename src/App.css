@@ -1,0 +1,25 @@
+:root {
+    /*les couleurs qui se repetent*/
+    --color-dark:#27292a;
+    --color-darkest:#1f2122;
+    --color-lite:white;
+    --color-primary:#ec6090;
+
+
+    /* les distances qui se repetent */
+    --distance-primary : 50px;
+    --padding-primary: var(--distance-primary);
+    --margine-primary : var(--distance-primary)
+    --border-radius-primary: calc(var(--distance-primary) / 2)
+    
+    --font-family-primary: 'Poppins', sans-serif;
+    --font-weight-bold:900;
+    --font-weight-normal:400;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,300&family=Rosarivo:ital@1&display=swap');
+
+body {
+    background-color: var(--color-darkest);
+    font-family: 'Poppins' sans-serif;
+}
