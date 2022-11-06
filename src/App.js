@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-import {Hero, Header , Container ,Footer } from './components/index'
+import { Container } from './components/index'
+import {Hero, Header  ,Footer } from './sections/index'
 const App = () => {
   return (
     <> 
