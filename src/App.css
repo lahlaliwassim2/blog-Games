@@ -22,4 +22,5 @@
 body {
     background-color: var(--color-darkest);
     font-family: 'Poppins' sans-serif;
+    color:  white;
 }
