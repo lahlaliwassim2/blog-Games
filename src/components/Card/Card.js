@@ -2,7 +2,7 @@ import './Card.css'
 import popular_01  from '../../assets/images/popular-01.jpg'
 
 
-const Card = () => {
+const Card = (props) => {
   return (
     <>
      <div className='most-pop-item'>
@@ -10,7 +10,7 @@ const Card = () => {
                         <img className='most-pop-item-img' src={ popular_01 } />
                         <div className='most-pop-item-content'>
                             <h4 className='most-pop-item-titre'>
-                                7abahh <br /> 
+                                {props.titre} <br /> 
                                 <span>Sandbox</span>
                             </h4> 
                             <ul>
