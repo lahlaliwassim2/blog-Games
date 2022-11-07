@@ -1,5 +1,4 @@
 import './Card.css'
-import popular_01  from '../../assets/images/popular-01.jpg'
 
 
 const Card = (props) => {
@@ -7,15 +6,15 @@ const Card = (props) => {
     <>
      <div className='most-pop-item'>
                     <div className='card-wrapper'>
-                        <img className='most-pop-item-img' src={ popular_01 } />
+                        <img className='most-pop-item-img' src={props.image} />
                         <div className='most-pop-item-content'>
                             <h4 className='most-pop-item-titre'>
                                 {props.titre} <br /> 
-                                <span>Sandbox</span>
+                                <span>{props.category}</span>
                             </h4> 
                             <ul>
-                                <li>4.8</li>
-                                <li>2.1</li>
+                                <li>{props.rate}</li>
+                                <li>{props.download}</li>
                             </ul>
                         </div>
                     </div>
